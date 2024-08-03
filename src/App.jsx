@@ -1,58 +1,36 @@
-import { useEffect, useState } from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  useLocation,
-} from "react-router-dom";
-import Preloader from "../src/components/Pre";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Cursor from "../src/components/Cursor";
-import Layout from "./pages/Layout";
-import ArchiveProjects from "./pages/ArchiveProjects";
-import NotFound from "./pages/NotFound";
-import "./App.css";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Homepage from './pages/Homepage'
+import NotFound from './pages/404'
+import { useEffect, useState } from 'react';
+import { createContext } from 'react';
+import "preline/preline";
 
-function ScrollToTopOnRouteChange() {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null;
-}
+export const AppContext = createContext();
 
 function App() {
-  const [load, updateLoad] = useState(true);
+	const savedTheme = localStorage.getItem("theme");
+    const [theme, setTheme] = useState(savedTheme || "dark");
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      updateLoad(false);
-    }, 1200);
+	useEffect(() => {
+        document.documentElement.classList.toggle("dark", theme === "dark");
 
-    return () => clearTimeout(timer);
-  }, []);
+        localStorage.setItem("theme", theme);
+    }, [theme]);
 
-  return (
-    <div className="App ">
-      {/* <Cursor /> */}
-      <Router>
-        <Preloader load={load} />
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
-          <ScrollToTopOnRouteChange />
-          <Routes>
-            <Route path="/" element={<Layout />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projectlist" element={<ArchiveProjects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/*" element={<NotFound />} />
-          </Routes>
-        </div>
-      </Router>
-    </div>
-  );
+	const switchTheme = () => {
+        setTheme(theme === "dark" ? "light" : "dark");
+    };
+
+	return (
+		<AppContext.Provider value={{ theme, switchTheme }}>
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Homepage />} />
+					<Route path="*" element={<NotFound />} />
+				</Routes>
+			</BrowserRouter>
+		</AppContext.Provider>
+	)
 }
 
-export default App;
+export default App
