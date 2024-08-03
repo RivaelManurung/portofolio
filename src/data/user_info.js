@@ -67,36 +67,26 @@ const info = {
     // ============ EXPERIENCE ============
     experience: [
         {
-            position: "",
-            company: "Centralized Cloud Computing International, Inc.",
-            duration: "July 2024 - Present",
-            image: "ccci.webp",
+            position: "Web Devlopment",
+            company: "Baparekraf Digital Talent",
+            duration: "Mei 2023 - Jul 2023",
+            image: "baparekraf.png",
             descriptions: [
-                "Develop and maintain full-stack web applications, including content management systems (CMS).",
-                "Convert Figma designs into responsive and interactive front-end interfaces.",
+                "learn to use kotlin programming language",
             ]
         },
         {
-            position: "Full-Stack Developer Intern",
-            company: "Centralized Cloud Computing International, Inc.",
-            duration: "Mar 2024 - Jun 2024 (3 Months)",
-            image: "ccci.webp",
+            position: "Flutter Mobile App Development",
+            company: "Baparekraf Digital Talent",
+            duration: "Jul 2023",
+            image: "sanbercode.jpeg",
             descriptions: [
-                "Completed an extensive training program in full-stack web development.",
-                "Actively contributed to the ongoing development of a web application.",
-                "Mentored by senior developers on best practices and code optimization.",
+                "learn to design apps using dart",
+                "create an application using the flutter framework",
+                "learn to use firebase as authentication"
             ]
-        },
-        {
-            position: "Work Immersion - Web Developer",
-            company: "St. Peter Velle Technical Training Center",
-            duration: "Nov 2019 - Dec 2019 (1 Month)",
-            image: "spvttc.webp",
-            descriptions: [
-                "Developed Python scripts to automate document score calculations.",
-                "Developed a company website as part of an ICT-related work immersion program."
-            ]
-        },
+        }
+        
     ],
 
     // ============ CERTIFICATES ============
