@@ -77,7 +77,7 @@ const info = {
         },
         {
             position: "Flutter Mobile App Development",
-            company: "Baparekraf Digital Talent",
+            company: "SanberCode",
             duration: "Jul 2023",
             image: "sanbercode.jpeg",
             descriptions: [
