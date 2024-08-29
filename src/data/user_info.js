@@ -52,6 +52,15 @@ const info = {
 			github: "https://github.com/RivaelManurung/blog",
             // link: "https://thechatroom.netlify.app/"
 		},
+        {
+			title: "Library",
+			description: "This website is used to manage blogs using Laravel",
+			technologies: "Laravel, Php, Boostrap, JavaScript",
+            // image: "../rivael.png",
+			github: " https://github.com/RivaelManurung/Library",
+            // link: "https://thechatroom.netlify.app/"
+		},
+       
     ],
 
     // ============ EDUCATION ============
