@@ -94,6 +94,26 @@ const info = {
                 "create an application using the flutter framework",
                 "learn to use firebase as authentication"
             ]
+        },
+        {
+            position: "Software Enginger",
+            company: "Kominfo",
+            duration: "Sept 2024",
+            image: "diskominfo.png",
+            descriptions: [
+                "create an website using the laravel framework",
+                "create an webiste absensi kominfo using qrcode",
+            ]
+        },
+        {
+            position: "Flutter Mobile App Development",
+            company: "SanberCode",
+            duration: "Jul 2023",
+            image: "infinitelearning.png",
+            descriptions: [
+                "learn to design website with figma",
+                "create an website using the react and express js framework",
+            ]
         }
         
     ],
