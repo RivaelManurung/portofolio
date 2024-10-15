@@ -107,8 +107,8 @@ const info = {
         },
         {
             position: "Flutter Mobile App Development",
-            company: "SanberCode",
-            duration: "Jul 2023",
+            company: "Infite Learning",
+            duration: "Sept 2024",
             image: "infinitelearning.png",
             descriptions: [
                 "learn to design website with figma",
