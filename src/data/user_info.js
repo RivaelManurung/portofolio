@@ -52,12 +52,20 @@ const info = {
 			github: "https://github.com/RivaelManurung/blog",
             // link: "https://thechatroom.netlify.app/"
 		},
+        // {
+		// 	title: "Library",
+		// 	description: "This website is used to manage blogs using Laravel",
+		// 	technologies: "Laravel, Php, Boostrap, JavaScript",
+        //     // image: "../rivael.png",
+		// 	github: " https://github.com/RivaelManurung/Library",
+        //     // link: "https://thechatroom.netlify.app/"
+		// },
         {
-			title: "Library",
-			description: "This website is used to manage blogs using Laravel",
+			title: "Absensi Kominfo",
+			description: "This website is used to manage absences using Laravel",
 			technologies: "Laravel, Php, Boostrap, JavaScript",
             // image: "../rivael.png",
-			github: " https://github.com/RivaelManurung/Library",
+			github: " https://github.com/danielmanalu07/Komfend-WEB-DEV",
             // link: "https://thechatroom.netlify.app/"
 		},
        
