@@ -106,7 +106,7 @@ const info = {
             ]
         },
         {
-            position: "Flutter Mobile App Development",
+            position: "Web Developer",
             company: "Infite Learning",
             duration: "Sept 2024",
             image: "infinitelearning.png",
