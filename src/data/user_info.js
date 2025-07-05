@@ -3,7 +3,7 @@ const info = {
     main: {
         name: "Rivael Hasiholan Manurung",
         description: "As a back-end engineer, I focus on creating and maintaining the server-side parts of applications to ensure they work well with the front end. I work with various programming languages like Node.js, PHP, Java and Golang, and have a lot of experience using the Laravel framework. I also contribute to the whole development process of projects. In addition to back-end skills, I know front-end development with React JS and manage SQL databases effectively. I follow best practices in software development to build scalable and efficient systems, manage databases well, and perform thorough testing. My commitment to quality has led to reliable back-end solutions that improve overall system performance and provide a good user experience. Overall, I aim to connect the front and back ends smoothly, creating a cohesive and efficient application environment.",
-        role: "Full-Stack Developer",
+        role: "Backend Developer",
         photo: "../rivael.png",
         email: "rivaelmanurung3@gmail.com",
     },
@@ -11,64 +11,68 @@ const info = {
     // ============ SOCIAL LINKS ============
     socials: {
         twitter: "https://x.com/ManroeRivael",
-		github: "https://github.com/RivaelManurung",
-		linkedin: "https://linkedin.com/in/rivaelmanurung",
-		instagram: "https://www.instagram.com/rivael_m",
-		facebook: "https://www.facebook.com/rivael.manroe/",
+        github: "https://github.com/RivaelManurung",
+        linkedin: "https://linkedin.com/in/rivaelmanurung",
+        instagram: "https://www.instagram.com/rivael_m",
+        facebook: "https://www.facebook.com/rivael.manroe/",
     },
 
     // ============ PROJECTS ============
     projects: [
         {
-			title: "SiTani",
-			description: "SiTani is a website used to borrow goods from the website by farmers. This website is developed using laravel",
+            title: "Uangku",
+            description: "A personal finance management web application to track income, expenses, and account balances. Features a dynamic dashboard with graphs to visualize financial summaries.",
+            technologies: "Laravel, PHP, JavaScript, Bootstrap, ApexCharts, MySQL",
+            // image: "../uangku.png",
+            github: "https://github.com/RivaelManurung/UangKu",
+        },
+        {
+            title: "SiTani",
+            description: "SiTani is a website used to borrow goods from the website by farmers. This website is developed using laravel",
             technologies: "PHP, Laravel, JavaScript, Boostrap",
             // image: "../pa1.png",
-			github: "https://github.com/rickyananada1/PA1-Kel2",
-		},
-
+            github: "https://github.com/rickyananada1/PA1-Kel2",
+        },
         {
-			title: "DelApp",
-			description: "Developed to manage data such as bookings, overnight permits, exit permits and so on.",
-			technologies: "Flutter, dart",
+            title: "DelApp",
+            description: "Developed to manage data such as bookings, overnight permits, exit permits and so on.",
+            technologies: "Flutter, dart",
             // image: "../rivael.png",
-			github: "https://github.com/RivaelManurung/DelApp",
-		},
-
+            github: "https://github.com/RivaelManurung/DelApp",
+        },
         {
-			title: "The Deck",
-			description: "This application was developed for ordering food with the frontend using flutter and the backend using golang along with the admin managed via the website using laravel.",
-			technologies: "Laravel, Php, Boostrap, Flutter, Dart, JavaScript, Go, Api, Html, Css",
+            title: "The Deck",
+            description: "This application was developed for ordering food with the frontend using flutter and the backend using golang along with the admin managed via the website using laravel.",
+            technologies: "Laravel, Php, Boostrap, Flutter, Dart, JavaScript, Go, Api, Html, Css",
             // image: "../rivael.png",
-			github: "https://github.com/danielmanalu07/PA2-Kel15",
+            github: "https://github.com/danielmanalu07/PA2-Kel15",
             // link: "https://letterdigitshape-classification.netlify.app/"
-		},
+        },
+        {
+            title: "Blog",
+            description: "This website is used to manage blogs using Laravel",
+            technologies: "Laravel, Php, Boostrap, JavaScript",
+            // image: "../rivael.png",
+            github: "https://github.com/RivaelManurung/blog",
+            // link: "https://thechatroom.netlify.app/"
+        },
+        {
+            title: "Library",
+            description: "This website is used to manage blogs using Laravel",
+            technologies: "Laravel, Php, Boostrap, JavaScript",
+            // image: "../rivael.png",
+            github: " https://github.com/RivaelManurung/Library",
+            // link: "https://thechatroom.netlify.app/"
+        },
+        {
+            title: "Absensi Kominfo",
+            description: "This website is used to manage absences using Laravel",
+            technologies: "Laravel, Php, Boostrap, JavaScript",
+            // image: "../rivael.png",
+            github: " https://github.com/danielmanalu07/Komfend-WEB-DEV",
+            // link: "https://thechatroom.netlify.app/"
+        },
 
-		{
-			title: "Blog",
-			description: "This website is used to manage blogs using Laravel",
-			technologies: "Laravel, Php, Boostrap, JavaScript",
-            // image: "../rivael.png",
-			github: "https://github.com/RivaelManurung/blog",
-            // link: "https://thechatroom.netlify.app/"
-		},
-        {
-			title: "Library",
-			description: "This website is used to manage blogs using Laravel",
-			technologies: "Laravel, Php, Boostrap, JavaScript",
-            // image: "../rivael.png",
-			github: " https://github.com/RivaelManurung/Library",
-            // link: "https://thechatroom.netlify.app/"
-		},
-        {
-			title: "Absensi Kominfo",
-			description: "This website is used to manage absences using Laravel",
-			technologies: "Laravel, Php, Boostrap, JavaScript",
-            // image: "../rivael.png",
-			github: " https://github.com/danielmanalu07/Komfend-WEB-DEV",
-            // link: "https://thechatroom.netlify.app/"
-		},
-       
     ],
 
     // ============ EDUCATION ============
@@ -123,7 +127,7 @@ const info = {
                 "create an website using the react and express js framework",
             ]
         }
-        
+
     ],
 
     // ============ CERTIFICATES ============
@@ -189,7 +193,7 @@ const info = {
             link: "https://www.dicoding.com/certificates/JLX1W15WGP72"
         }
 
-        
+
     ],
 
     // ============ CONTACT ============
