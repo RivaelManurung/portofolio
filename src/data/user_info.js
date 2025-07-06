@@ -83,8 +83,8 @@ const info = {
       description:
         "A classic Tic Tac Toe game built with Vue.js where two players can play in turns. It includes win detection, draw conditions, and a reset button.",
       technologies: "Vue.js, JavaScript, HTML, CSS",
-      github: "https://github.com/RivaelManurung/tictactoe", // ganti dengan URL repo kamu kalau sudah ada
-      // link: "https://your-deploy-link.com" // opsional kalau sudah kamu deploy
+      github: "https://github.com/RivaelManurung/tictactoe",
+      link: "tictactoe-inky-six.vercel.app" // opsional kalau sudah kamu deploy
     },
   ],
 
