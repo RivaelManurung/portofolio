@@ -84,7 +84,16 @@ const info = {
         "A classic Tic Tac Toe game built with Vue.js where two players can play in turns. It includes win detection, draw conditions, and a reset button.",
       technologies: "Vue.js, JavaScript, HTML, CSS",
       github: "https://github.com/RivaelManurung/tictactoe",
-      link: "tictactoe-inky-six.vercel.app" // opsional kalau sudah kamu deploy
+      link: "tictactoe-inky-six.vercel.app", // opsional kalau sudah kamu deploy
+    },
+    {
+      title: "Go-WebService(Clean Architecture)",
+      description:
+        "A RESTful API built with Go applying Clean Architecture principles. Features user authentication with JWT, middleware-protected routes, and full CRUD operations for products and categories. Implements a layered, testable, and maintainable structure.",
+      technologies: "Go, Gin, GORM, PostgreSQL, JWT, Docker",
+      // image: "../go-clean-arch.png", // Ganti dengan path gambar Anda jika ada
+      github:
+        "https://github.com/RivaelManurung/Go-WebService-CleanArchitecture",
     },
   ],
 
