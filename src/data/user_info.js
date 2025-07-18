@@ -54,14 +54,14 @@ const info = {
       github: "https://github.com/danielmanalu07/PA2-Kel15",
       // link: "https://letterdigitshape-classification.netlify.app/"
     },
-    {
-      title: "Blog",
-      description: "This website is used to manage blogs using Laravel",
-      technologies: "Laravel, Php, Boostrap, JavaScript",
-      // image: "../rivael.png",
-      github: "https://github.com/RivaelManurung/blog",
-      // link: "https://thechatroom.netlify.app/"
-    },
+    // {
+    //   title: "Blog",
+    //   description: "This website is used to manage blogs using Laravel",
+    //   technologies: "Laravel, Php, Boostrap, JavaScript",
+    //   // image: "../rivael.png",
+    //   github: "https://github.com/RivaelManurung/blog",
+    //   // link: "https://thechatroom.netlify.app/"
+    // },
     {
       title: "Library",
       description: "This website is used to manage blogs using Laravel",
@@ -84,16 +84,34 @@ const info = {
         "A classic Tic Tac Toe game built with Vue.js where two players can play in turns. It includes win detection, draw conditions, and a reset button.",
       technologies: "Vue.js, JavaScript, HTML, CSS",
       github: "https://github.com/RivaelManurung/tictactoe",
-      link: "tictactoe-inky-six.vercel.app", // opsional kalau sudah kamu deploy
+      // image: "../tictactoe.png",
+      // link: "tictactoe-inky-six.vercel.app", // opsional kalau sudah kamu deploy
     },
     {
       title: "Go-WebService(Clean Architecture)",
       description:
         "A RESTful API built with Go applying Clean Architecture principles. Features user authentication with JWT, middleware-protected routes, and full CRUD operations for products and categories. Implements a layered, testable, and maintainable structure.",
       technologies: "Go, Gin, GORM, PostgreSQL, JWT, Docker",
-      // image: "../go-clean-arch.png", // Ganti dengan path gambar Anda jika ada
+      // image: "../go-clean-arch.png",
       github:
         "https://github.com/RivaelManurung/Go-WebService-CleanArchitecture",
+    },
+    {
+      title: "Website Agrilearn",
+      description:
+        "A full-stack educational platform focused on agriculture, featuring forums, categorized articles, and educational videos to support knowledge sharing and community collaboration. Developed using Vite and React for the frontend, with a Node.js backend.",
+      technologies: "Vite, React, Tailwind CSS, Node.js, JavaScript",
+      // image: "../agrilearn.png",
+      github: "https://github.com/RivaelManurung/massive",
+    },
+    {
+      title: "Inventory Management TSTH2 (Web & Mobile)",
+      description: `This system aims to simplify warehouse inventory management by supporting item check-in/out, usage tracking, and stock reporting—built with Laravel 11 and a Flutter-based mobile app for QR code transactions.`,
+      technologies:
+        "Laravel , Blade, Vue.js, MySQL, Flutter, QR Code, JavaScript",
+      // image: "../inventory-management.png",
+      github:
+        "https://github.com/RivaelManurung/Website-dan-aplikasi-inventory-tsht2",
     },
   ],
 

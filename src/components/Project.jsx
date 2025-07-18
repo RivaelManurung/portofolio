@@ -23,9 +23,9 @@ function Project({ title, description, technologies, link, github, photo, image 
         {title}
       </h3>
       {/* =========== PROJECT IMAGE =========== */}
-      {/* {image && (
+      {image && (
         <img src={image} alt={`${title} Image`} className="w-full h-auto rounded-xl mb-4" />
-      )} */}
+      )}
       {/* =========== PROJECT DESCRIPTION =========== */}
       <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
         {description}
