@@ -109,7 +109,7 @@ const info = {
       description: `This system aims to simplify warehouse inventory management by supporting item check-in/out, usage tracking, and stock reporting—built with Laravel 11 and a Flutter-based mobile app for QR code transactions.`,
       technologies:
         "Laravel , Blade, Vue.js, MySQL, Flutter, QR Code, JavaScript",
-      // image: "../inventory-management.png",
+      image: "../inventory-management.png",
       github:
         "https://github.com/RivaelManurung/Website-dan-aplikasi-inventory-tsht2",
     },
