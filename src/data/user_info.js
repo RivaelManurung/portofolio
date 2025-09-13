@@ -84,7 +84,7 @@ const info = {
         "A classic Tic Tac Toe game built with Vue.js where two players can play in turns. It includes win detection, draw conditions, and a reset button.",
       technologies: "Vue.js, JavaScript, HTML, CSS",
       github: "https://github.com/RivaelManurung/tictactoe",
-      // image: "../tictactoe.png",
+      image: "../tictactoe.png",
       // link: "tictactoe-inky-six.vercel.app", // opsional kalau sudah kamu deploy
     },
     {
@@ -101,7 +101,7 @@ const info = {
       description:
         "A full-stack educational platform focused on agriculture, featuring forums, categorized articles, and educational videos to support knowledge sharing and community collaboration. Developed using Vite and React for the frontend, with a Node.js backend.",
       technologies: "Vite, React, Tailwind CSS, Node.js, JavaScript",
-      // image: "../agrilearn.png",
+      image: "../agrilearn.png",
       github: "https://github.com/RivaelManurung/massive",
     },
     {
