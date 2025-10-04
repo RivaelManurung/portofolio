@@ -3,8 +3,8 @@ const info = {
   main: {
     name: "Rivael Hasiholan Manurung",
     description:
-      "As a back-end engineer, I focus on creating and maintaining the server-side parts of applications to ensure they work well with the front end. I work with various programming languages like Node.js, PHP, Java and Golang, and have a lot of experience using the Laravel framework. I also contribute to the whole development process of projects. In addition to back-end skills, I know front-end development with React JS and manage SQL databases effectively. I follow best practices in software development to build scalable and efficient systems, manage databases well, and perform thorough testing. My commitment to quality has led to reliable back-end solutions that improve overall system performance and provide a good user experience. Overall, I aim to connect the front and back ends smoothly, creating a cohesive and efficient application environment.",
-    role: "Backend Developer",
+      "Fresh Graduate in Information Technology with a strong passion for Software Development. Experienced in web and mobile application development using Node.js, PHP, JavaScript, Golang, and Laravel. Skilled in SQL database management, API development, and familiar with front-end technologies such as React JS. Strong in problem-solving and teamwork, with a focus on building efficient and scalable solutions",
+    role: "Web Developer",
     photo: "../rivael.png",
     email: "rivaelmanurung3@gmail.com",
   },
@@ -20,37 +20,38 @@ const info = {
 
   // ============ PROJECTS ============
   projects: [
+    // {
+    //   title: "Uangku",
+    //   description:
+    //     "A personal finance management web application to track income, expenses, and account balances. Features a dynamic dashboard with graphs to visualize financial summaries.",
+    //   technologies: "Laravel, PHP, JavaScript, Bootstrap, ApexCharts, MySQL",
+    //   // image: "../uangku.png",
+    //   github: "https://github.com/RivaelManurung/UangKu",
+    // },
     {
-      title: "Uangku",
+      title: "Charging Station - Web App",
       description:
-        "A personal finance management web application to track income, expenses, and account balances. Features a dynamic dashboard with graphs to visualize financial summaries.",
-      technologies: "Laravel, PHP, JavaScript, Bootstrap, ApexCharts, MySQL",
-      // image: "../uangku.png",
-      github: "https://github.com/RivaelManurung/UangKu",
+        "This project focuses on developing a charging system for electric vehicle stations equipped with a digital payment feature. It allows users to charge their electric cars easily and make secure online payments. The system aims to improve convenience, efficiency, and accessibility in EV charging operations.",
+      technologies: "Laravel, PHP, JavaScript, Bootstrap, Midtrans , MySQL",
+      image: "../charging.png",
+      github: "https://github.com/danielmanalu07/chargingstation",
     },
-    {
-      title: "SiTani",
-      description:
-        "SiTani is a website used to borrow goods from the website by farmers. This website is developed using laravel",
-      technologies: "PHP, Laravel, JavaScript, Boostrap",
-      // image: "../pa1.png",
-      github: "https://github.com/rickyananada1/PA1-Kel2",
-    },
-    {
-      title: "DelApp",
-      description:
-        "Developed to manage data such as bookings, overnight permits, exit permits and so on.",
-      technologies: "Flutter, dart",
-      // image: "../rivael.png",
-      github: "https://github.com/RivaelManurung/DelApp",
-    },
+   
+    // {
+    //   title: "DelApp",
+    //   description:
+    //     "Developed to manage data such as bookings, overnight permits, exit permits and so on.",
+    //   technologies: "Flutter, dart",
+    //   // image: "../rivael.png",
+    //   github: "https://github.com/RivaelManurung/DelApp",
+    // },
     {
       title: "The Deck",
       description:
         "This application was developed for ordering food with the frontend using flutter and the backend using golang along with the admin managed via the website using laravel.",
       technologies:
         "Laravel, Php, Boostrap, Flutter, Dart, JavaScript, Go, Api, Html, Css",
-      // image: "../rivael.png",
+      image: "../Thedeckres.png",
       github: "https://github.com/danielmanalu07/PA2-Kel15",
       // link: "https://letterdigitshape-classification.netlify.app/"
     },
@@ -62,19 +63,19 @@ const info = {
     //   github: "https://github.com/RivaelManurung/blog",
     //   // link: "https://thechatroom.netlify.app/"
     // },
-    {
-      title: "Library",
-      description: "This website is used to manage blogs using Laravel",
-      technologies: "Laravel, Php, Boostrap, JavaScript",
-      // image: "../rivael.png",
-      github: " https://github.com/RivaelManurung/Library",
-      // link: "https://thechatroom.netlify.app/"
-    },
+    // {
+    //   title: "Library",
+    //   description: "This website is used to manage blogs using Laravel",
+    //   technologies: "Laravel, Php, Boostrap, JavaScript",
+    //   // image: "../rivael.png",
+    //   github: " https://github.com/RivaelManurung/Library",
+    //   // link: "https://thechatroom.netlify.app/"
+    // },
     {
       title: "Absensi Kominfo",
-      description: "This website is used to manage absences using Laravel",
+      description: "This web application is designed to manage employee attendance efficiently. Developed using the Laravel framework, it provides a structured system for recording, tracking, and managing absences, helping administrators maintain accurate attendance records and streamline HR processes.",
       technologies: "Laravel, Php, Boostrap, JavaScript",
-      // image: "../rivael.png",
+      image: "../absensi.png",
       github: " https://github.com/danielmanalu07/Komfend-WEB-DEV",
       // link: "https://thechatroom.netlify.app/"
     },
@@ -84,24 +85,16 @@ const info = {
         "A classic Tic Tac Toe game built with Vue.js where two players can play in turns. It includes win detection, draw conditions, and a reset button.",
       technologies: "Vue.js, JavaScript, HTML, CSS",
       github: "https://github.com/RivaelManurung/tictactoe",
-      // image: "../tictactoe.png",
+      image: "../tictactoe.png",
       // link: "tictactoe-inky-six.vercel.app", // opsional kalau sudah kamu deploy
     },
-    {
-      title: "Go-WebService(Clean Architecture)",
-      description:
-        "A RESTful API built with Go applying Clean Architecture principles. Features user authentication with JWT, middleware-protected routes, and full CRUD operations for products and categories. Implements a layered, testable, and maintainable structure.",
-      technologies: "Go, Gin, GORM, PostgreSQL, JWT, Docker",
-      // image: "../go-clean-arch.png",
-      github:
-        "https://github.com/RivaelManurung/Go-WebService-CleanArchitecture",
-    },
+   
     {
       title: "Website Agrilearn",
       description:
         "A full-stack educational platform focused on agriculture, featuring forums, categorized articles, and educational videos to support knowledge sharing and community collaboration. Developed using Vite and React for the frontend, with a Node.js backend.",
       technologies: "Vite, React, Tailwind CSS, Node.js, JavaScript",
-      // image: "../agrilearn.png",
+       image: "../Agrilea.png",
       github: "https://github.com/RivaelManurung/massive",
     },
     {
@@ -109,9 +102,35 @@ const info = {
       description: `This system aims to simplify warehouse inventory management by supporting item check-in/out, usage tracking, and stock reporting—built with Laravel 11 and a Flutter-based mobile app for QR code transactions.`,
       technologies:
         "Laravel , Blade, Vue.js, MySQL, Flutter, QR Code, JavaScript",
-      // image: "../inventory-management.png",
+      image: "../TSTH2.png",
       github:
         "https://github.com/RivaelManurung/Website-dan-aplikasi-inventory-tsht2",
+    },
+    {
+      title: "Nusantara Oleh-Oleh - Web & Mobile Apps",
+      description: "This e-commerce application is a comprehensive platform designed to streamline and manage all aspects of an online store. It provides a robust and intuitive system for business owners and their staff to handle products, sales, and customer interactions efficiently.",
+      technologies: "Flutter, Go, Vue.js,Redis, PostgreSQL, RabbitMQ",
+      image: "../nusantara.png",
+      github: " https://github.com/Project-Menara/nusantara_mobile",
+      // link: "https://thechatroom.netlify.app/"
+      
+    },
+     {
+      title: "SiTani",
+      description:
+        "This web application is a comprehensive platform designed to facilitate and manage the borrowing of agricultural equipment by farmers. Built using the Laravel framework, it provides an intuitive and efficient system that allows farmers to request, borrow, and track agricultural tools easily, while administrators can manage inventory, monitor transactions, and ensure smooth lending operations.",
+      technologies: "PHP, Laravel, JavaScript, Boostrap",
+      // image: "../pa1.png",
+      github: "https://github.com/rickyananada1/PA1-Kel2",
+    },
+     {
+      title: "Go-WebService(Clean Architecture)",
+      description:
+        "A RESTful API built with Go applying Clean Architecture principles. Features user authentication with JWT, middleware-protected routes, and full CRUD operations for products and categories. Implements a layered, testable, and maintainable structure.",
+      technologies: "Go, Gin, GORM, PostgreSQL, JWT, Docker",
+      // image: "../go-clean-arch.png",
+      github:
+        "https://github.com/RivaelManurung/Go-WebService-CleanArchitecture",
     },
   ],
 
